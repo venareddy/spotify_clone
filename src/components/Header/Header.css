@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  position: sticky;
+  background-color: #464358;
+  padding: 10px;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__right .avatar {
+  margin-right: 10px;
+}
